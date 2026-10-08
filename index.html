@@ -23,16 +23,15 @@
     <div class="slides">
 
 <!-- ==========================================================================
-     1. INTRODUCTION  [3 min]
+     1. INTRODUCTION  [4 min]
      ========================================================================== -->
 
 <section data-no-header data-transition="fade-in fade-out" data-background-image="img/background_animals.svg">
-  <div id="left70">
-    <h3><i class="rust-orange">Rust's</i> Influence on<br>C++ and Python:</h3>
-    <h4>Shaping the future of three communities</h4>
+  <div class="columns c70-30">
+    <div>
+    <h2><i class="rust-orange">Rust's</i> Influence on<br>C++ and Python:</h2>
+    <h4>Shaping the future of<br>three communities</h4>
     <hr class="rust-line"/>
-        <p class="x70" style="opacity: 0.85;">
-    </p>
   <p class="x80">
   <i class="rust-orange" style="font-size: 3rem;">Cristián</i><br>
     maureira.dev<br/><br/>
@@ -43,243 +42,276 @@
     <img class="clean-img" src="img/linkedin.png">
   </p>
   </div>
-</section>
-
-<section data-transition="fade-in fade-out">
-    <div class="r-hstack justify-center">
-      <div><img style="width: 500px;" src="img/qt_white.png"/></div>
-      <div><img class="fragment" style="width: 400px;margin-left: 30px;" src="img/python_white.svg"/></div>
-      <div><img class="fragment" style="width: 500px;" src="img/community.svg"/></div>
-    </div>
-</section>
-
-<section data-transition="fade-in fade-out" data-background-image="img/background_stars.svg">
-  <h3>You might think Rust</h3>
-  <h3>is the endgame</h3>
-</section>
-
-<section data-transition="fade-in fade-out" data-background-image="img/background_stars.svg">
-  <h2>...but you have way more responsibilities in your hands</h2>
-  <p class="x70 fragment" style="opacity: 0.85;">
-    The forces that will define Rust's next decade will also<br>
-    being generated <i>somewhere else</i>.
-  </p>
-</section>
-
-<section data-transition="fade-in fade-out" data-background-image="img/background_stars.svg">
-  <h2>
-    The forces that will define Rust's next decade will also<br>
-    being generated <i>somewhere else</i>.
-  </h2>
-</section>
-
-<section data-transition="fade-in fade-out">
-  <h3>Two neighbours</h3>
-  <div class="cols center" style="margin-top: 0.6em;">
-    <div class="col fragment" data-fragment-index="1">
-      <div class="card cpp">
-        <h4>C++</h4>
-        <p style="margin:0;">Under institutional pressure to become memory safe,
-        and unable to do it without breaking itself.</p>
-      </div>
-    </div>
-    <div class="col fragment" data-fragment-index="3" style="flex: 0 0 auto;">
-      <img style="width: 200px;" src="img/rust_arrows.svg" />
-    </div>
-    <div class="col fragment" data-fragment-index="2">
-      <div class="card py">
-        <h4>Python</h4>
-        <p style="margin:0;">Quietly rebuilding its performance-critical
-        foundations on top of Rust, mostly without saying so out loud.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ==========================================================================
-     2. THE STATE OF RUST TODAY  [3 min]
-     ========================================================================== -->
-
-<section data-transition="fade-in fade-out" class="slide-rust-orange" data-no-header>
-  <h1><span class="kicker">Part one</span>The state of Rust today</h1>
-</section>
-
-<section data-transition="fade-in fade-out">
-  <h3>Rust won the argument</h3>
-  <div class="wall" style="margin-top: 1em;">
-    <span class="hl">Linux kernel</span>
-    <span class="hl">Windows kernel</span>
-    <span class="hl">Android</span>
-    <span>Chromium</span>
-    <span>Firefox</span>
-    <span>AWS (Firecracker, Bottlerocket)</span>
-    <span>Azure</span>
-    <span>Cloudflare</span>
-    <span>Discord</span>
-    <span>Dropbox</span>
-    <span>npm registry</span>
-    <span>Meta</span>
-    <span>Volvo</span>
-    <span>Renault (Ampere)</span>
   </div>
 </section>
 
 <section data-transition="fade-in fade-out">
-  <h3>The numbers everyone quotes</h3>
-  <div class="cols center" style="margin-top: 0.8em;">
-    <div class="col">
+  <h3>Programming languages</h3>
+  <div class="r-hstack justify-center" style="gap: 50px; margin-top: 1em;">
+    <img style="height: 140px;" src="img/logo_c.png" alt="C"/>
+    <img class="fragment" data-fragment-index="2" style="height: 140px;" src="img/logo_bash.png" alt="Bash"/>
+    <img class="fragment" data-fragment-index="2" style="height: 140px;" src="img/logo_perl.png" alt="Perl"/>
+    <img class="fragment" data-fragment-index="3" style="height: 140px;" src="img/logo_cpp.svg" alt="C++"/>
+    <img class="fragment" data-fragment-index="3" style="height: 140px;" src="img/logo_python.svg" alt="Python"/>
+  </div>
+  <div class="r-hstack justify-center" style="gap: 50px; margin-top: 1em;">
+    <img class="fragment" data-fragment-index="4" style="height: 80px;" src="img/logo_zig.svg" alt="Zig"/>
+    <img class="fragment" data-fragment-index="4" style="height: 140px;" src="img/logo_gleam.svg" alt="Gleam"/>
+  </div>
+</section>
+
+<section data-transition="fade-in fade-out">
+  <h2>We all end up learning<br> a <i class="qt-lemon">few languages</i></h2>
+  <p class="fragment"><i class="qt-neon">and that's crucial</i></p>
+</section>
+
+<section data-transition="fade-in fade-out">
+    <div class="r-hstack justify-center" style="gap: 20px;">
+      <div><img style="width: 450px;" src="img/career_1.png"/></div>
+      <div><img class="fragment" style="width: 450px;" src="img/career_2.png"/></div>
+      <div><img class="fragment" style="width: 450px;" src="img/qt_white.png"/></div>
+      <div><img class="fragment" style="width: 370px;" src="img/python_white.svg"/></div>
+      <div><img class="fragment" style="width: 450px;" src="img/community.svg"/></div>
+    </div>
+</section>
+
+<section data-transition="fade-in fade-out">
+  <h3 class="r-fit-text">Rust is great</h3>
+  <h3 class="fragment">but...😨</h3>
+  <h3 class="r-fit-text fragment">it <i class="red">is not</i> the endgame</h3>
+
+</section>
+
+<section data-transition="fade-in fade-out">
+  <h3>You already know this part</h3>
+  <div class="columns c3" style="margin-top: 0.8em;">
+    <div>
       <span class="stat">~70%</span>
       <span class="stat-label">of Microsoft CVEs were<br>memory safety issues</span>
     </div>
-    <div class="col">
+    <div>
       <span class="stat">~70%</span>
       <span class="stat-label">of serious Chromium<br>security bugs, likewise</span>
     </div>
-    <div class="col">
+    <div>
       <!-- only new code, no re-writes -->
-      <span class="stat">76 &rarr; 24%</span>
-      <span class="stat-label">Android memory safety vulns,<br>2019 to 2024</span>
+      <span class="stat">76 &rarr; &lt;20%</span>
+      <span class="stat-label">Android memory safety vulns,<br>2019 to 2025</span>
     </div>
   </div>
-  <p class="x40">
+  <p class="x60" style="margin-top: 1em;">
+    In the Linux and Windows kernels, certified for cars (ASIL D),
+    four editions without breakage, "most admired" every year...
+    (no need to convince you)
+  </p>
+  <p class="ref">
     Sources: Matt Miller / BlueHat IL 2019 (Microsoft), Chromium memory safety
-    page (2020), Google Security Blog "Eliminating Memory Safety Vulnerabilities
-    at the Source" (Sept 2024).
+    page (2020), Google, "Rust in Android: move fast and fix things" (Nov 2025). RustConf 2026: "The Safety-Critical Rust
+    Consortium Two Years In" (Pete LeVasseur)
   </p>
 </section>
 
 <section data-transition="fade-in fade-out">
-  <div id="left70">
-    <h3>Mature, by most measures</h3>
-    <hr class="rust-line"/>
-    <ul class="x70 tight">
-      <li>Four editions: 2015, 2018, 2021, <b>2024</b></li>
-      <li>A six-week train that has not derailed in a decade</li>
-      <li>An official <b>specification</b> effort, and a qualified toolchain
-          (<b>Ferrocene</b>: ISO 26262 ASIL D, IEC 61508 SIL 4)</li>
-      <li>A foundation with corporate money behind it</li>
-      <li>"Most admired language" on Stack Overflow, every year, forever</li>
-    </ul>
-  </div>
+  <h2>So what's left to <i class="rust-orange">worry</i> about? 🤔</h2>
 </section>
 
-<section data-transition="fade-in fade-out" data-background-image="img/background_stars.svg">
-  <h2>So what's left to <i class="rust-orange">worry</i> about?</h2>
+<section data-transition="fade-in fade-out">
+  <h2>
+    Much of Rust's next decade<br>
+    will be shaped <i class="rust-orange">outside Rust</i>
+  </h2>
   <p class="x70 fragment" style="opacity:0.85;">
-    Maturity means your problems stop being <i>language</i> problems<br>
-    and start being <i>everyone else's</i> problems.
+    ...and the Rust community has <i class="qt-lemon">a crucial role</i> to play there.
   </p>
 </section>
 
+<section data-transition="fade-in fade-out">
+  <h3>Meet your neighbours</h3>
+  <div class="columns with-mid" style="margin-top: 0.6em;">
+    <div class="fragment" data-fragment-index="1">
+      <div class="card cpp">
+        <img class="code-logo" style="height: 5em" src="img/cpp_logo.svg" />
+        <p style="margin:0;">Pushed to be memory safe, without breaking everything 😬</p>
+      </div>
+    </div>
+    <div class="fragment" data-fragment-index="2">
+      <div class="card py">
+        <img class="code-logo" style="height: 5em" src="img/python-logo-only.svg" />
+        <p style="margin:0;">Getting from Rust what C couldn't give it</p>
+      </div>
+    </div>
+    <div class="mid fragment" data-fragment-index="3">
+      <img style="width: 300px;" src="img/rust_arrows.svg" />
+    </div>
+  </div>
+  <p class="fragment" data-fragment-index="4" style="margin-top: 0.8em;">
+    What's happening in C++ and Python, and why do they <i class="rust-orange">need you</i>?
+  </p>
+</section>
+
+<section data-transition="fade-in fade-out">
+  <h3>C++ and Python communities are <i class="qt-lemon">much bigger</i></h3>
+  <div class="columns c3" style="margin-top: 0.8em;">
+    <div>
+      <span class="stat">22.9M</span>
+      <span class="stat-label"><b>Python</b> developers</span>
+    </div>
+    <div>
+      <span class="stat cpp-blue">16.3M</span>
+      <span class="stat-label"><b>C++</b> developers</span>
+    </div>
+    <div>
+      <span class="stat" style="color: var(--rust-orange);">5.1M</span>
+      <span class="stat-label"><b>Rust</b> developers</span>
+    </div>
+  </div>
+  <p class="fragment x70" style="margin-top: 1em;">
+    PyPI serves in ~4 months what crates.io has served <i class="rust-orange">ever</i>
+  </p>
+  <p class="ref">
+    SlashData Developer Nation, Q1 2025.
+    pypi.org, crates.io, top-pypi-packages, October 2026
+  </p>
+</section>
+
+<section data-transition="fade-in fade-out">
+  <h3 class="r-fit-text">So what's the <u>motivation</u> for this?</h3>
+</section>
 <!-- ==========================================================================
-     3. THE C++ SAFETY CRISIS  [7 min]
+     2. C++: THE SAFETY SEARCH  [8 min]
      ========================================================================== -->
 
-<section data-transition="fade-in fade-out" class="slide-cpp" data-no-header>
-  <h1><span class="kicker">Part two</span>The C++ safety crisis</h1>
+<section data-transition="fade-in fade-out" data-no-header data-background-image="img/background_trees.png" data-background-opacity="0.3">
+  <h1><span class="kicker">Part one</span>The C++ safety crisis</h1>
 </section>
 
 <section data-transition="fade-in fade-out">
-  <div id="left70">
-    <h3>C++ has been looking for Rust<br>for a <i class="cpp-blue">long</i> time</h3>
+  <div>
+    <h3>C++ has been working on safety<br>for a <i class="cpp-blue">long</i> time</h3>
     <hr class="rust-line"/>
-    <dl class="timeline">
-      <dt>2011&ndash;14</dt><dd>"Modern C++": RAII everywhere, smart pointers,
-                            <code>auto</code>, move semantics</dd>
-      <dt>2015</dt>       <dd>C++ Core Guidelines + GSL (Stroustrup &amp; Sutter, CppCon)</dd>
-      <dt>2015&ndash;19</dt><dd>The <b>Lifetime Profile</b>: static analysis to catch
-                            dangling references. Never fully delivered.</dd>
-      <dt>2019&ndash;22</dt><dd>Sanitizers, hardened standard libraries, <code>-fbounds-safety</code></dd>
+    <dl class="timeline x60">
+      <dt>1998&ndash;2008</dt><dd>RAII, <code>auto_ptr</code>; JSF++ (2005) and MISRA C++ (2008) coding rules</dd>
+      <dt>2011&ndash;14</dt><dd>"Modern C++": smart pointers, move semantics</dd>
+      <dt>2012</dt>       <dd>Sanitizers: AddressSanitizer in Clang and GCC</dd>
+      <dt>2015</dt>       <dd>Core Guidelines, GSL, <b>Lifetime Profile</b> (never delivered)</dd>
+      <dt>2024&ndash;26</dt><dd>Hardened libc++, C++26 hardened standard library</dd>
     </dl>
   </div>
 </section>
 
-<section data-transition="fade-in fade-out">
-  <h3>Why "just be careful" doesn't scale</h3>
-  <div class="cols" style="margin-top: 0.5em;">
-    <div class="col">
-      <pre style="font-size: 52%;"><code class="cpp" data-trim data-noescape>
-std::vector&lt;int&gt; v{1, 2, 3};
-int&amp; r = v[0];
-
-v.push_back(4);   // may reallocate
-
-r = 42;           // use after free
-      </code></pre>
-      <p class="x60 cpp-blue" style="margin-top:0;">Compiles clean. No warning.</p>
-    </div>
-    <div class="col">
-      <pre style="font-size: 52%;"><code class="rust" data-trim data-noescape>
-let mut v = vec![1, 2, 3];
-let r = &amp;mut v[0];
-
-v.push(4);        // second borrow
-
-*r = 42;
-      </code></pre>
-      <p class="x60 rust-orange" style="margin-top:0;">error[E0499]: cannot borrow
-      <code>v</code> as mutable more than once</p>
-    </div>
-  </div>
-  <p class="x60 fragment" style="margin-top: 0.8em; opacity:0.85;">
-    The difference isn't the bug. It's <i>who is responsible for finding it</i>.
-  </p>
+<section data-transition="fade-in fade-out" data-background-image="img/background_scary.png" data-background-opacity="0.3">
+  <dl class="timeline">
+    <dt>2022&ndash;24</dt><dd><b>NSA, CISA, White House</b>: memory safe roadmaps,
+                        Rust among the alternatives</dd>
+    <dt class="now">2026&ndash;27</dt><dd><b>EU Cyber Resilience Act</b>: on companies
+                        shipping C++ <i>and</i> Rust</dd>
+  </dl>
 </section>
 
 <section data-transition="fade-in fade-out">
-  <div id="left70">
-    <h3>Then it stopped being<br>a <i class="cpp-blue">language design</i> debate</h3>
-    <hr class="rust-line"/>
-    <dl class="timeline">
-      <dt>Nov 2022</dt><dd><b>NSA</b> - "Software Memory Safety" advisory
-          names C and C++, recommends Rust by name</dd>
-      <dt>Dec 2023</dt><dd><b>CISA</b> + NSA + FBI + international partners
-          - "The Case for Memory Safe Roadmaps"</dd>
-      <dt>Dec 2023</dt><dd><b>CISA</b> - "The Urgent Need for Memory
-          Safety in Software Products"</dd>
-      <dt>Feb 2024</dt><dd><b>White House ONCD</b> - "Back to the Building
-          Blocks", a national-security framing</dd>
-      <dt>2024</dt>    <dd><b>CISA Secure by Design pledge</b> - publish a
-          memory safe roadmap</dd>
-      <dt class="now">2024&ndash;27</dt><dd><b>EU Cyber Resilience Act</b>
-          - in force Dec 2024, full obligations Dec 2027</dd>
-    </dl>
-  </div>
-</section>
+  <h3>C++'s answers, 1/3: <i class="cpp-blue">Profiles</i></h3>
+  <div class="columns c60-40 v-start" style="margin-top: 0.5em;">
+    <div>
+      <pre style="font-size: 46%;"><code class="cpp" data-trim data-noescape>
+// proposed syntax (P3081 / P3589), still in flux
+[[profiles::enforce(bounds_safety)]];
+[[profiles::enforce(type_safety)]];
 
-<section data-transition="fade-in fade-out">
-  <h3>C++'s three answers</h3>
-  <div class="cols" style="margin-top: 0.5em;">
-    <div class="col">
+void fill(std::span&lt;int&gt; s, int* raw) {
+    s[10] = 0;   // bounds-checked at runtime
+    raw[1] = 0;  // rejected: raw pointer subscript
+
+    [[profiles::suppress(bounds_safety)]]
+    raw[1] = 0;  // explicit, greppable opt-out
+}
+      </code></pre>
+      <p class="x60 cpp-blue" style="margin-top:0;">Same C++, stricter rules</p>
+    </div>
+    <div>
       <div class="card cpp">
         <h4>Profiles</h4>
         <ul class="tight">
           <li>Stroustrup, Sutter</li>
-          <li>Opt-in enforcement of subsets: bounds, type, lifetime</li>
-          <li>No new syntax, no new stdlib</li>
-          <li>Currently the committee's chosen direction</li>
+          <li>Opt-in subsets: bounds, type, lifetime</li>
+          <li>No new syntax or stdlib</li>
+          <li>Committee's direction, but <b>not in C++26</b></li>
+          <li>C++26 instead: hardened stdlib, erroneous behaviour</li>
         </ul>
       </div>
     </div>
-    <div class="col">
+  </div>
+</section>
+
+<section data-transition="fade-in fade-out">
+  <h3>C++'s answers, 2/3: <i class="cpp-blue">Safe C++</i> / Circle</h3>
+  <div class="columns c60-40 v-start" style="margin-top: 0.5em;">
+    <div>
+      <pre style="font-size: 46%;"><code class="cpp" data-trim data-noescape>
+#feature on safety
+#include &lt;std2.h&gt;
+
+int main() safe {
+  std2::vector&lt;int&gt; vec { 11, 15, 20 };
+
+  for(int x : vec) {
+    // ill-formed: mutating vec invalidates
+    // the iterator of the ranged-for
+    if(x % 2)
+      mut vec.push_back(x);
+  }
+}
+      </code></pre>
+      <p class="x60 cpp-blue" style="margin-top:0;">A borrow checker, in C++</p>
+    </div>
+    <div>
       <div class="card cpp">
         <h4>Safe C++ / Circle</h4>
         <ul class="tight">
-          <li>Sean Baxter (P3390)</li>
-          <li>A real borrow checker: <code>^</code> borrows, <code>safe</code> functions</li>
-          <li>Needs a second standard library (<code>std2</code>)</li>
-          <li>Not adopted</li>
+          <li>Sean Baxter (P3390, 2024)</li>
+          <li>Real borrow checker: <code>^</code> borrows, <code>safe</code> functions</li>
+          <li>A second stdlib (<code>std2</code>)</li>
+          <li><b class="rust-red">Abandoned</b> (June 2025): Profiles won</li>
         </ul>
       </div>
     </div>
-    <div class="col">
+  </div>
+  <p class="x60 fragment" style="margin-top: 0.6em;">
+    Closest to Rust's model... too far from C++ 🫤
+  </p>
+</section>
+
+<section data-transition="fade-in fade-out">
+  <h3>C++'s answers, 3/3: <i class="carbon-gray">Carbon</i></h3>
+  <div class="columns c60-40 v-start" style="margin-top: 0.5em;">
+    <div>
+      <pre style="font-size: 44%;"><code class="rust" data-trim data-noescape>
+import Cpp library "&lt;vector&gt;";
+
+fn Run() {
+  var x: Cpp.std.vector(i32) = (1, 20, 300);
+  var p: i32* = &amp;x[0];
+  x.push_back(4000);
+  Core.Print(*p);
+  // error: use of `p` after it was invalidated
+  //        by `x.push_back(4000)`
+}
+
+class buf(T:! type) {
+  disjoint owned ^Elts of T;
+  fn PushBack(ref self, x: T) invalidate(^Elts);
+}
+      </code></pre>
+      <p class="x60" style="margin-top:0;">Strict Carbon, checking C++ code</p>
+    </div>
+    <div>
       <div class="card carbon">
         <h4>Carbon</h4>
         <ul class="tight">
-          <li>Google, 2022</li>
-          <li>A successor language, not a dialect</li>
-          <li>Bidirectional C++ interop as the whole point</li>
-          <li>Explicitly "if Rust works for you, use Rust"</li>
+          <li>Google, 2022: successor, not dialect</li>
+          <li>C++ interop is the whole point</li>
+          <li>Compile-time UAF and data-race checks, <b>without</b> exclusive <code>&amp;mut</code></li>
+          <li>Plan: <i>Permissive</i> &rarr; <i>strict</i> mode</li>
+          <li>NDC TechTown 2026 (Carruth, Levenberg)</li>
         </ul>
       </div>
     </div>
@@ -290,410 +322,722 @@ v.push(4);        // second borrow
   <h3>The lesson Rust should take</h3>
   <hr class="rust-line"/>
   <ul class="x70 tight">
-    <li class="fragment">Nobody is rewriting 30 million lines of C++.
-        <b>Ever.</b></li>
-    <li class="fragment">So the realistic outcome is not migration, it is a
-        <i class="rust-orange">permanent border</i></li>
-    <li class="fragment">Which makes <b>interop the product</b>, not a
-        nice-to-have</li>
-    <li class="fragment">Every hour spent on <code>cxx</code>, <code>bindgen</code>,
-        <code>crubit</code>, ABI and build integration is worth more than
-        another language feature</li>
+    <li class="fragment">Rewriting millions of lines of C++ is very hard <i class="qt-lemon">(...so far)</i></li>
+    <li class="fragment">Mixed C++/Rust codebases are <i class="rust-orange">here to stay</i></li>
+    <li class="fragment"><b>Interop</b> is the main thing, not a nice-to-have</li>
+    <li class="fragment">Bindings, ABI, build integration matter as much as new language features</li>
   </ul>
-  <p class="x40">
-    The Rust Foundation's Interop Initiative (2024, seeded with $1M from Google)
+  <p class="ref">
+    Already on this stage last year: "Rust/C++ Interop: Carcinization or
+    Intelligent Design?" (Victor Ciura), EuroRust 2025
   </p>
 </section>
 
 <section data-transition="fade-in fade-out">
-  <h3>What the border actually looks like</h3>
-  <pre style="font-size: 55%; width: 92%;"><code class="rust" data-trim data-noescape>
-    // main.rs
-    use qtbridge::{QApp, qobject};
-
-    #[derive(Default)]
-    pub struct Backend {}
-
-    #[qobject(Singleton)]
-    impl Backend {
-        #[qslot]
-        fn say_hello(&amp;self) {
-            println!("Hello, Qt!")
-        }
-    }
-
-    fn main() {
-        QApp::new()
-            .register::&lt;Backend&gt;()
-            .load_qml(include_bytes!("Main.qml"))
-            .run();
-    }
-  </code></pre>
-  <p class="x60 fragment">
-    <code>cxx</code> &middot; <code>autocxx</code> &middot; <code>crubit</code> &middot;
-    <code>bindgen</code> / <code>cbindgen</code> &middot; <code>uniffi</code> &middot;
-    <code>CXX-Qt</code> &middot; <span class="rust-orange">qtbridge</span>
+  <h3>C/C++ interop is already in your <code>Cargo.lock</code></h3>
+  <div class="columns c3" style="margin-top: 0.8em;">
+    <div>
+      <span class="stat">1.36B</span>
+      <span class="stat-label"><code>cc</code> downloads<br>4,221 direct dependents</span>
+    </div>
+    <div>
+      <span class="stat">421M</span>
+      <span class="stat-label"><code>bindgen</code> downloads<br>3,039 direct dependents</span>
+    </div>
+    <div>
+      <span class="stat">82M</span>
+      <span class="stat-label"><code>cxx</code> downloads<br>373 direct dependents</span>
+    </div>
+  </div>
+  <p class="x60 fragment" style="margin-top: 1em;">
+    Your Rust binary often contains C and C++, <i class="rust-orange">and its bugs</i>
   </p>
+  <p class="ref">crates.io, all-time downloads and direct reverse dependencies, October 2026</p>
+</section>
+
+<section data-transition="fade-in fade-out">
+  <h3>Interop is getting <i class="rust-orange">a lot of attention</i></h3>
+  <hr class="rust-line"/>
+  <div class="columns c60-40 v-start">
+    <div>
+      <ul class="x60 tight">
+        <li><code>bindgen</code> - C/C++ headers &rarr; Rust FFI</li>
+        <li><code>cxx</code> - safe bridge, both sides declared</li>
+        <li><code>autocxx</code> : <code>bindgen</code> + <code>cxx</code>, from Chromium</li>
+        <li><code>crubit</code> - bidirectional, Google's monorepo</li>
+        <li><code>zngur</code> - Rust types exposed to C++</li>
+        <li><code>diplomat</code> - one Rust API &rarr; C++, JS, Dart..., from ICU4X</li>
+      </ul>
+    </div>
+    <div class="fragment">
+      <div class="card">
+        <h4>Who is investing</h4>
+        <ul class="tight">
+          <li>Google: $1M, Interop Initiative (2024)</li>
+          <li>Rust Project: a goal since 2025</li>
+          <li>Google, Mozilla: their own tools</li>
+          <li>Adobe: 78M lines of C++, people in Rust's interop group</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p class="x70">
+    Six approaches, no winner yet... <i class="qt-neon">people really want this</i>!
+  </p>
+</section>
+
+<section data-transition="fade-in fade-out">
+  <h3>A real interop case: <i class="qt-neon">Qt</i> and Rust</h3>
+  <hr class="rust-line"/>
+      <ul class="x70 tight">
+        <li>Rust GUIs: still maturing and evolving
+            (<a href="https://areweguiyet.com">areweguiyet.com</a>)</li>
+        <li class="fragment">Qt: a ~30-year-old codebase, 1.5M+ developers, desktop to embedded</li>
+        <li class="fragment">Accessibility, i18n, platform integration: solved</li>
+        <li class="fragment"><u>Not</u> rewriting Qt in Rust 😱: bindings that
+            feel <i class="rust-orange">native</i> on both sides</li>
+      </ul>
+</section>
+
+<section data-transition="fade-in fade-out">
+  <h3>Qt and Rust: what was tried before</h3>
+  <hr class="rust-line"/>
+  <div class="columns v-start">
+    <div>
+      <div class="card">
+        <h4><code>qmetaobject-rs</code> <span class="x60">(Woboq, 2018)</span></h4>
+        <ul class="tight">
+          <li>Qt's meta-object system, via Rust macros</li>
+          <li>Inline C++ (<code>cpp!</code>): two toolchains per build</li>
+          <li>Small API, slowed down with Qt 6</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div class="card fragment">
+        <h4>CXX-Qt <span class="x60">(KDAB, 2021)</span></h4>
+        <ul class="tight">
+          <li>Built on <code>cxx</code> bridge modules</li>
+          <li>C++ concepts in Rust syntax: <code>Pin&lt;&amp;mut&gt;</code>,
+              <code>extern "RustQt"</code></li>
+          <li>Powerful, but needs Qt, C++ <i>and</i> Rust</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-transition="fade-in fade-out">
+  <h3>Qt Bridges: write Rust, get Qt</h3>
+  <div class="columns v-start" style="margin-top: 0.4em;">
+    <div>
+      <pre style="font-size: 40%;"><code class="rust" data-trim data-noescape>
+use qtbridge::{QApp, qobject};
+
+#[derive(Default)]
+pub struct Backend {}
+
+#[qobject(Singleton)]
+impl Backend {
+    #[qslot]
+    fn say_hello(&amp;self) {
+        println!("Hello, Qt!")
+    }
+}
+
+fn main() {
+    QApp::new()
+        .register::&lt;Backend&gt;()
+        .load_qml(include_bytes!("Main.qml"))
+        .run();
+}
+      </code></pre>
+      <p class="x60 rust-orange" style="margin-top:0;">main.rs</p>
+    </div>
+    <div>
+      <pre style="font-size: 40%;"><code class="qml" data-trim data-noescape>
+import QtQuick
+import QtQuick.Controls
+
+ApplicationWindow {
+    visible: true
+    width: 320
+    height: 120
+    title: "Hello from Rust"
+
+    Button {
+        anchors.centerIn: parent
+        text: "Say hello"
+        onClicked: Backend.say_hello()
+    }
+}
+      </code></pre>
+      <p class="x60 qt-neon" style="margin-top:0;">Main.qml</p>
+    </div>
+  </div>
+  <div class="neon-box x50">
+    <img src="img/qt_white.png" alt="Qt"/>
+    <span>More later today: <b>"Qt Bridges: Bringing a mature C++ UI framework to
+    Rust"</b>, Matthias Rauter, 11:45, Main Stage</span>
+  </div>
+</section>
+
+<section data-transition="fade-in fade-out">
+  <h3>C++ and you (1/2)</h3>
+  <div style="width: 75%; margin: 0.6em auto;">
+      <div class="card rust">
+        <h4>What they need from you</h4>
+        <ul class="tight">
+          <li class="fragment">Users, bugs, docs: <code>cxx</code>, <code>zngur</code>,
+              <code>crubit</code>, <code>diplomat</code></li>
+          <li class="fragment">Rust experience in Profiles and Carbon debates</li>
+          <li class="fragment">Material for C++ devs: idioms, not "RIIR"</li>
+          <li class="fragment">Talks: Meeting C++, CppCon, C++ on Sea, NDC TechTown</li>
+        </ul>
+      </div>
+  </div>
+</section>
+
+<section data-transition="fade-in fade-out">
+  <h3>C++ and you (2/2)</h3>
+  <div style="width: 75%; margin: 0.6em auto;">
+      <div class="card cpp">
+        <h4>What you will learn from them</h4>
+        <ul class="tight">
+          <li class="fragment">Running a <b>standards process</b>: papers, votes, national bodies</li>
+          <li class="fragment">Keeping <b>40-year-old code</b> compiling</li>
+          <li class="fragment">Certification, safety-critical heritage</li>
+          <li class="fragment">Compile-time programming, pushed far</li>
+        </ul>
+      </div>
+  </div>
 </section>
 
 <!-- ==========================================================================
-     4. PYTHON'S RUSTY REVOLUTION  [7 min]
+     3. PYTHON'S RUSTY REVOLUTION  [7 min]
      ========================================================================== -->
-<section data-transition="fade-in fade-out" class="slide-blue" data-no-header>
-  <h1><span class="kicker">Part three</span>Python's rusty revolution</h1>
+
+<section data-transition="fade-in fade-out"  data-no-header  data-background-image="img/background_python_revolution.png" data-background-opacity="0.3">
+  <h1><span class="kicker">Part two</span>Python's rusty revolution</h1>
 </section>
 
 <section data-transition="fade-in fade-out">
-  <h3>How Python got fast, for 30 years</h3>
-  <pre style="font-size: 55%; width: 90%;"><code class="c" data-trim data-noescape>
-static PyObject* hello(PyObject* self, PyObject* args) {
-    char *msg = "Hello EuroRust 2026!";
-    return Py_BuildValue("s", msg);
-}
-
-static PyMethodDef functions[] = {
-    {"hello", (PyCFunction)hello, METH_NOARGS, NULL},
-    {NULL, NULL, 0, NULL}
-};
-  </code></pre>
-  <p class="x60 fragment">
-    Manual reference counting. Manual error propagation.<br>
-    One missed <code>Py_DECREF</code> away from a leak, one extra away from a crash.
+    <div>
+      <h3>Ten years of Rust in Python</h3>
+      <hr class="rust-line"/>
+      <dl class="timeline x40">
+        <dt>2015</dt><dd><code>rust-cpython</code>: first serious attempt</dd>
+        <dt>2017</dt><dd><b>PyO3</b> forks from it</dd>
+        <dt>2018</dt><dd><b>maturin</b>: wheels made trivial</dd>
+        <dt>2019</dt><dd>HuggingFace <code>tokenizers</code>: millions on Rust, unknowingly</dd>
+        <dt>2021</dt><dd><code>cryptography</code> 3.4 adds Rust, and breaks
+                     <i class="python-yellow">some platforms</i></dd>
+        <dt>2023</dt><dd><b>pydantic</b> v2: a Rust core</dd>
+        <dt>2024</dt><dd><b>Astral</b>: ruff, uv, ty. Rust as the default for tooling</dd>
+        <dt class="now">2026</dt><dd><a href="https://github.com/Rust-for-CPython">Rust
+            for CPython</a>: pre-PEP, optional <code>zlib-rs</code> in 3.16</dd>
+      </dl>
+    </div>
+  <p class="ref">
+    Already here last year: "Rust-Python Interoperability" workshop
+    (Luca Palmieri), EuroRust 2025
   </p>
 </section>
 
 <section data-transition="fade-in fade-out">
-  <h3>How Python gets fast now</h3>
-  <pre style="font-size: 55%; width: 90%;"><code class="rust" data-trim data-noescape>
-use pyo3::prelude::*;
+  <h3>Rust inside PyPI's <i class="python-yellow">top 100</i></h3>
+  <div class="columns c3" style="margin-top: 0.8em;">
+    <div>
+      <span class="stat">6+</span>
+      <span class="stat-label">of the top 100 packages<br>are built with Rust</span>
+    </div>
+    <div>
+      <span class="stat">3.3B</span>
+      <span class="stat-label">downloads in 30 days,<br>for the six below</span>
+    </div>
+    <div>
+      <span class="stat">~33%</span>
+      <span class="stat-label">of new native code<br>on PyPI is Rust</span>
+    </div>
+  </div>
+  <p class="x60 fragment" style="margin-top: 1em;">
+    <code>cryptography</code> #9 &middot; <code>pydantic-core</code> #21 &middot;
+    <code>rpds-py</code> #49 &middot; <code>jiter</code> #92 &middot;
+    <code>watchfiles</code> #94 &middot; <code>ruff</code> #96
+  </p>
+  <p class="x60 fragment">
+    Extension authors choosing Rust: 27% &rarr; 33% in one year
+  </p>
+  <p class="ref">
+    top-pypi-packages, 30 days to 2026-10-01. David Hewitt, Python Language
+    Summit 2025. JetBrains, State of Python 2025
+  </p>
+</section>
 
-#[pyfunction]
-fn hello() -&gt; &amp;'static str {
-    "Hello EuroRust 2026!"
+<section data-transition="fade-in fade-out">
+  <h3>Python's users are <i class="rust-orange">your</i> users</h3>
+  <hr class="rust-line"/>
+  <div class="columns c50-50">
+    <div style="text-align: center;">
+      <p class="x60"><a href="https://crates.io/crates/rpds"><code>rpds</code></a>
+        on crates.io</p>
+      <h2 class="rust-orange">19.7M</h2>
+      <p class="x40">downloads, all time</p>
+    </div>
+    <div class="fragment" style="text-align: center;">
+      <p class="x60"><code>rpds-py</code> on PyPI</p>
+      <h2 class="python-yellow fragment">470M</h2>
+      <p class="x40">downloads, last 30 days</p>
+    </div>
+  </div>
+  <p class="x60 fragment">
+    One month on PyPI &gt; the crate's whole life 😵
+  </p>
+  <p class="x60 fragment">
+    <code>rpds-py</code> &larr; <code>jsonschema</code> &larr; half of PyPI<br>
+    (a transitive dependency nobody chose)
+  </p>
+  <p class="ref">pypistats.org and crates.io, October 2026</p>
+</section>
+
+<section data-transition="fade-in fade-out">
+  <h3>...and <code>rpds</code> is not alone</h3>
+  <hr class="rust-line"/>
+  <table class="x60">
+    <thead>
+      <tr>
+        <th>Crate</th>
+        <th align="right">crates.io<br><span class="x60">all time</span></th>
+        <th align="right">PyPI<br><span class="x60">last 30 days</span></th>
+        <th>Pulled in by (e.g.)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>rpds</code></td>
+        <td align="right" class="rust-orange">19.7M</td>
+        <td align="right" class="python-yellow">470M</td>
+        <td><code>jsonschema</code></td>
+      </tr>
+      <tr>
+        <td><code>jiter</code></td>
+        <td align="right" class="rust-orange">23.8M</td>
+        <td align="right" class="python-yellow">317M</td>
+        <td><code>openai</code>, <code>anthropic</code> (yes, every LLM script 🤖)</td>
+      </tr>
+      <tr>
+        <td><code>tokenizers</code></td>
+        <td align="right" class="rust-orange">38.8M</td>
+        <td align="right" class="python-yellow">167M</td>
+        <td><code>transformers</code>, <code>litellm</code>, <code>chromadb</code></td>
+      </tr>
+      <tr>
+        <td><code>safetensors</code></td>
+        <td align="right" class="rust-orange">30.6M</td>
+        <td align="right" class="python-yellow">74M</td>
+        <td><code>transformers</code></td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="x60 fragment">
+    ...and many more (try your favourite crate!)
+  </p>
+  <p class="ref">pypistats.org and crates.io, October 2026</p>
+</section>
+
+<section data-transition="fade-in fade-out">
+    <div>
+      <h3>Why Python extensions pick Rust<br>over C/C++</h3>
+      <hr class="rust-line"/>
+      <ul class="x70 tight">
+        <li class="fragment"><b>Distribution:</b> <code>maturin</code> &rarr; wheels
+            (RIP manylinux pain)</li>
+        <li class="fragment"><b>Builds:</b> Cargo, no CMake fights</li>
+        <li class="fragment"><b>Concurrency:</b> hello, free-threaded Python!</li>
+        <li class="fragment"><b>Safety:</b> an easy yes to "is it memory safe?"</li>
+      </ul>
+    </div>
+</section>
+
+<section data-transition="fade-in fade-out">
+  <h3>The cost of adoption</h3>
+  <hr class="rust-line"/>
+  <ul class="x70 tight">
+    <li class="fragment"><b>Platforms:</b> s390x, AIX, HPPA, BSDs... not tier 1
+        (ask <code>cryptography</code> 3.4)</li>
+    <li class="fragment"><b>Bootstrapping:</b> a Rust toolchain, for a TLS library</li>
+    <li class="fragment"><b>Two dependency ecosystems</b>, one SBOM</li>
+    <li class="fragment"><b>Skill gap:</b> who reviews the <code>unsafe</code>?</li>
+  </ul>
+  <p class="x60 fragment">
+    Your crate, in half of PyPI, for people who never chose Rust.<br>
+    <i class="rust-orange">What do we owe them?</i>
+  </p>
+</section>
+
+<section data-transition="fade-in fade-out">
+  <h3>Free-threaded Python, checked by Rust</h3>
+  <p class="x60">
+    Python 3.14: a no-GIL build is officially supported, but optional (PEP 779).<br>
+    Extensions that opt in must be <i class="python-yellow">really</i> thread safe
+  </p>
+  <pre style="font-size: 52%; width: 90%;"><code class="rust" data-trim data-noescape>
+use std::sync::atomic::{AtomicU64, Ordering};
+
+#[pyclass(frozen)]           // no &amp;mut self: must be Sync
+struct Counter { hits: AtomicU64 }
+
+#[pymethods]
+impl Counter {
+    fn hit(&amp;self) -&gt; u64 {
+        self.hits.fetch_add(1, Ordering::Relaxed) + 1
+    }
 }
 
-#[pymodule]
+#[pymodule(gil_used = false)] // "safe for free-threaded Python"
 fn demo(m: &amp;Bound&lt;'_, PyModule&gt;) -&gt; PyResult&lt;()&gt; {
-    m.add_function(wrap_pyfunction!(hello, m)?)
+    m.add_class::&lt;Counter&gt;()
 }
   </code></pre>
-  <pre class="fragment" style="font-size: 55%; width: 90%;"><code class="bash" data-trim>
-maturin develop   # builds it, installs it into the venv, done
-  </code></pre>
-  <p class="x40">
-    The refcounts are the Bound&lt;'_, T&gt; lifetime. Errors are PyResult. The
-    module table is generated.
+  <p class="x60 fragment">
+    No GIL: C promises, Rust <i class="rust-orange">checks it</i>
   </p>
 </section>
 
 <section data-transition="fade-in fade-out">
-  <div id="left70">
-    <h3>A quiet decade</h3>
-    <hr class="rust-line"/>
-    <dl class="timeline">
-      <dt>2015</dt><dd><code>rust-cpython</code> - the first serious attempt</dd>
-      <dt>2017</dt><dd><b>PyO3</b> forks from it</dd>
-      <dt>2018</dt><dd><b>maturin</b> (then <code>pyo3-pack</code>) makes wheels trivial</dd>
-      <dt>2019</dt><dd>HuggingFace <code>tokenizers</code> - the first library where
-                   millions of Python users depended on Rust without knowing</dd>
-      <dt>2021</dt><dd><code>cryptography</code> 3.4 adds Rust - and the ecosystem
-                   has its <i class="python-yellow">fight</i></dd>
-      <dt>2023</dt><dd><b>pydantic</b> v2 rebuilds its core in Rust</dd>
-      <dt>2024&ndash;</dt><dd><b>Astral</b>: ruff, uv, ty. Rust becomes the
-                   default answer.</dd>
-      <dt class="now">2026&ndash;</dt><dd>More Rust bindings, and Rust for
-          CPython</dd>
-    </dl>
+  <h3>Rust and Python, working together officially</h3>
+  <hr class="rust-line"/>
+  <div class="columns c50-50 v-start">
+    <div>
+      <a href="https://www.youtube.com/watch?v=z5_tEecNkRs">
+        <img class="w70" src="img/fireside_rust_python.jpg"
+             alt="Fireside Chat - Stewarding Rust &amp; Python, on YouTube"/>
+      </a>
+      <p class="x40">Rebecca Rumbul &amp; Deb Nicholson, "Fireside Chat -
+        Stewarding Rust &amp; Python", RustConf 2026</p>
+    </div>
+    <div class="fragment">
+      <img class="w50" src="img/rust-for-cpython.svg" alt="Rust for CPython"/>
+      <p class="x40">Rust for CPython initiative<br>
+        <a href="https://github.com/Rust-for-CPython">github.com/Rust-for-CPython</a><br>
+        "Project Update: Bringing Rust into Python" (Tomáš Šedovič), RustConf 2026</p>
+    </div>
   </div>
 </section>
 
 <section data-transition="fade-in fade-out">
-  <h3>Python is already running on Rust</h3>
-  <div class="wall" style="margin-top: 0.8em;">
-    <span class="hl">ruff</span>
-    <span class="hl">uv</span>
-    <span class="hl">pydantic-core</span>
-    <span class="hl">polars</span>
-    <span>tokenizers</span>
-    <span>safetensors</span>
-    <span>tiktoken</span>
-    <span>cryptography</span>
-    <span>orjson</span>
-    <span>rpds-py*</span>
-    <span>watchfiles</span>
-    <span>deltalake</span>
-    <span>granian</span>
-    <span>blake3</span>
-    <span>ty</span>
-  </div>
-  <p class="x60 fragment" style="margin-top: 1.2em;">
-    If you <code>pip install</code> almost anything in the data or AI stack today,<br>
-    you are <i class="rust-orange">downloading Rust binaries</i>.
-  </p>
-  <p class="x60 fragment" style="opacity: 0.85;">
-    Most Python developers have no idea. That's the point - it worked.
-  </p>
-  <p class="x40">
-    rpds-py is a dependency of jsonschema, which is a
-    dependency of half of PyPI. Nobody chose it. It just arrived.
-  </p>
-</section>
-
-<section data-transition="fade-in fade-out">
-  <div id="left70">
-    <h3>Why Rust, and not C++?</h3>
-    <hr class="rust-line"/>
-    <ul class="x70 tight">
-      <li class="fragment"><b>Distribution.</b> One <code>maturin</code> command
-          against a matrix of wheels beats a decade of manylinux pain</li>
-      <li class="fragment"><b>No build system negotiation.</b> Cargo already
-          knows how to find your dependencies</li>
-      <li class="fragment"><b>Fearless concurrency</b> in a language whose users
-          have never been allowed to have any</li>
-      <li class="fragment"><b>A safety story you can put in a security
-          questionnaire</b></li>
-    </ul>
+  <h3>Python and you (1/2)</h3>
+  <div style="width: 75%; margin: 0.6em auto;">
+      <div class="card rust">
+        <h4>What they need from you</h4>
+        <ul class="tight">
+          <li class="fragment">PyO3 and maturin for free-threaded Python</li>
+          <li class="fragment">Rust reviewers for Rust for CPython</li>
+          <li class="fragment"><code>unsafe</code> reviews in Python packages</li>
+          <li class="fragment">Adoption costs: platforms, distros, bootstrapping</li>
+          <li class="fragment">Talks: EuroPython, PyCon, PyData</li>
+        </ul>
+      </div>
   </div>
 </section>
 
 <section data-transition="fade-in fade-out">
-  <div id="left70">
-    <h3>The bill for this</h3>
-    <hr class="rust-line"/>
-    <ul class="x70 tight">
-      <li class="fragment"><b>Platform support.</b> Python ran on s390x, AIX,
-          HPPA, obscure BSDs. Rust does not, or not at tier 1.</li>
-      <li class="fragment"><b>Bootstrapping.</b> Distros that build everything
-          from source now need a Rust toolchain to build a TLS library.</li>
-      <li class="fragment"><b>Two ecosystems of dependencies</b> in one
-          artifact, and one SBOM that has to describe both.</li>
-      <li class="fragment"><b>Maintainer skill gap.</b> Your Python library now
-          needs someone who can review <code>unsafe</code>.</li>
-    </ul>
+  <h3>Python and you (2/2)</h3>
+  <div style="width: 75%; margin: 0.6em auto;">
+      <div class="card py">
+        <h4>What you will learn from them</h4>
+        <ul class="tight">
+          <li class="fragment">Teaching culture: sprints, PyLadies, beginners first</li>
+          <li class="fragment"><b>Stable ABI</b> (<code>abi3</code>), wheels for everyone</li>
+          <li class="fragment">Governance at scale: PEPs, Steering Council</li>
+          <li class="fragment">Python 2 &rarr; 3: what a breaking change can cost</li>
+          <li class="fragment">Big migrations in phases: removing the GIL (PEP 703, 779)</li>
+          <li class="fragment">Funding beyond one foundation: NumFOCUS, fiscal sponsorship</li>
+        </ul>
+      </div>
   </div>
-  <p class="x40">
-    when your crate becomes a
-    transitive dependency of half of PyPI, you have inherited users who never
-    chose Rust and cannot debug it. What do you owe them?
-  </p>
 </section>
 
 <!-- ==========================================================================
-     5. THE BIDIRECTIONAL RELATIONSHIP  [5 min]
+     4. THE BIDIRECTIONAL RELATIONSHIP  [5 min]
      ========================================================================== -->
 
-<section data-transition="fade-in fade-out" class="slide-red" data-no-header>
-  <h1><span class="kicker">Part four</span>The relationship goes<br>both ways</h1>
+<section data-transition="fade-in fade-out" data-no-header  data-background-image="img/background_relationship.png" data-background-opacity="0.3">
+  <h1><span class="kicker">Part three</span>Influence is a three-way street</h1>
 </section>
 
 <section data-transition="fade-in fade-out">
-  <div id="left70">
-    <h3>How influence actually travels</h3>
-    <hr class="rust-line"/>
-    <ol class="x70 tight">
-      <li class="fragment"><b>Code.</b> Rust is literally inside their runtimes.
-          A crate becomes a transitive dependency and the argument is over.</li>
-      <li class="fragment"><b>Design.</b> Ideas escape the language.
-          <code>Result</code> &rarr; <code>std::expected</code>. Cargo &rarr; uv.
-          Borrowing &rarr; Swift, Mojo, Hylo.</li>
-      <li class="fragment"><b>Politics.</b> Rust made "safety is the compiler's
-          job" a position institutions could adopt. Carbon and Circle are
-          answers to a question <i>Rust</i> asked.</li>
-    </ol>
-  </div>
-</section>
-
-<section data-transition="fade-in fade-out" data-background-image="img/background_stars.svg">
-  <h2>Every newcomer arrives<br>with <i class="rust-orange">expectations</i></h2>
-  <p class="x70 fragment" style="opacity:0.85;">
-    And a large enough group of newcomers<br>doesn't adapt to a language.<br>
-    It <i>changes</i> it.
+  <h3>Before Rust, <i class="cpp-blue">C++</i> built Python's growth</h3>
+  <hr class="rust-line"/>
+  <ul class="x70 tight">
+    <li class="fragment"><b>Science:</b> SciPy, scikit-learn, OpenCV</li>
+    <li class="fragment"><b>Machine learning:</b> PyTorch, TensorFlow: C++ cores, Python APIs</li>
+    <li class="fragment"><b>GUIs:</b> PySide (Qt for Python), PyQt</li>
+    <li class="fragment"><b>Bindings:</b> Boost.Python &rarr; pybind11 &rarr; nanobind</li>
+  </ul>
+  <p class="x60 fragment">
+    Python as the interface, C++ as the engine... and now Rust joins in
+  </p>
+  <p class="x60 fragment">
+    ...but that's a talk for <i class="python-yellow">another conference</i> 😉
   </p>
 </section>
 
 <section data-transition="fade-in fade-out">
-  <h3>What they bring with them</h3>
-  <div class="cols" style="margin-top: 0.5em;">
-    <div class="col">
+    <div>
+      <h3>Three kinds of influence</h3>
+      <hr class="rust-line"/>
+      <table class="x60">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="cpp-blue">C++</th>
+            <th class="python-yellow">Python</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="fragment">
+            <td><b>Code</b></td>
+            <td>Rust linked into Chromium and Android</td>
+            <td>Rust wheels on PyPI, <code>zlib-rs</code> proposed for CPython</td>
+          </tr>
+          <tr class="fragment">
+            <td><b>Design</b></td>
+            <td>Safe C++ and Carbon borrow ownership ideas</td>
+            <td><b>uv</b> is "Cargo for Python", <code>ruff</code> errors look like <code>rustc</code></td>
+          </tr>
+          <tr class="fragment">
+            <td><b>Politics</b></td>
+            <td>Governments name Rust, Profiles respond</td>
+            <td>PSF and Rust Foundation prepare for the CRA together</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+</section>
+
+<section data-transition="fade-in fade-out">
+  <h2>Every newcomer arrives<br>with <i class="rust-orange">expectations</i></h2>
+  <p class="x70 fragment">
+    enough of them, and they don't adapt to the language...<br>
+    they <i class="qt-lemon">change</i> it.
+  </p>
+</section>
+
+<section data-transition="fade-in fade-out">
+  <h3>What they asked for, and what Rust did (1/2)</h3>
+  <div style="width: 85%; margin: 0.6em auto;">
       <div class="card cpp">
         <h4>From C++</h4>
         <ul class="tight">
-          <li>"Where is the <b>standard</b>?" &rarr; the spec effort, Ferrocene</li>
-          <li>"Where is the <b>stable ABI</b>?" &rarr; crABI, <code>extern "C"</code> everywhere</li>
-          <li>"It has to build in <b>CMake / Bazel</b>" &rarr; Corrosion, cargo-as-a-library</li>
-          <li>Compile-time everything: const generics, const traits</li>
-          <li>Certification, MISRA-shaped rules, qualified toolchains</li>
-          <li>Custom allocators, placement, fallible allocation</li>
+          <li class="fragment">"Is there a <b>standard</b>?" &rarr; FLS, adopted by the Rust project &#9989;</li>
+          <li class="fragment">"Can it be <b>certified</b>?" &rarr; Ferrocene, Safety-Critical Rust Consortium &#9989;</li>
+          <li class="fragment">"Does it build with <b>CMake / Bazel</b>?" &rarr; Corrosion, rules_rust &#9989;</li>
+          <li class="fragment">"Can it be <b>const</b>?" &rarr; const generics &#9989;, const traits &#9203;</li>
+          <li class="fragment">"Custom or fallible <b>allocation</b>?" &rarr; <code>try_reserve</code> &#9989;, <code>Allocator</code> &#9989; (1.100, Nov)</li>
+          <li class="fragment">"Is the <b>ABI</b> stable?" &rarr; crABI, stalled since 2023 &#10067;</li>
         </ul>
       </div>
-    </div>
-    <div class="col">
+  </div>
+</section>
+
+<section data-transition="fade-in fade-out">
+  <h3>What they asked for, and what Rust did (2/2)</h3>
+  <div style="width: 85%; margin: 0.6em auto;">
       <div class="card py">
         <h4>From Python</h4>
         <ul class="tight">
-          <li>"Why are there <b>three</b> ways to do this?"</li>
-          <li>Expectation of <b>batteries</b>, and of one obvious crate</li>
-          <li>Docs as a first-class deliverable, not a README</li>
-          <li>A fast edit-run loop; frustration with compile times</li>
-          <li>Error messages that teach rather than accuse</li>
-          <li>Explicit, enforced community norms</li>
+          <li class="fragment">"Why is it so <b>slow to compile</b>?" &rarr; parallel front-end, Cranelift &#9203;</li>
+          <li class="fragment">"<b>Which crate</b> do I use?" &rarr; no official answer &#10067;</li>
+          <li class="fragment">"Why <b>three ways</b> to do this?" &rarr; errors, async runtimes &#10067;</li>
+          <li class="fragment">"Can I just <b>run a file</b>? (PEP 723)" &rarr; <code>cargo script</code>, blocked &#9203;</li>
         </ul>
       </div>
-    </div>
   </div>
-</section>
-
-<section data-transition="fade-in fade-out">
-  <h3>And Rust exports too</h3>
-  <div class="cols" style="margin-top: 0.5em; font-size: 0.9em;">
-    <div class="col">
-      <div class="card cpp">
-        <h4>Into C++</h4>
-        <ul class="tight">
-          <li><code>std::optional</code>, <code>std::expected</code>,
-              <code>std::span</code></li>
-          <li>Hardened stdlib, bounds profiles</li>
-          <li>The entire premise that safety is the compiler's job</li>
-          <li>Carbon and Circle would not exist without Rust</li>
-        </ul>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card py">
-        <h4>Into Python</h4>
-        <ul class="tight">
-          <li><b>uv</b> is openly "Cargo, for Python"</li>
-          <li>Lockfiles, a resolver you can trust, one tool</li>
-          <li><code>ruff</code>'s diagnostics look like <code>rustc</code>'s on purpose</li>
-          <li>Rising expectations for error message quality across the board</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <p class="x60 fragment" style="margin-top: 0.9em;">
-    Elsewhere: Swift's noncopyable types, Mojo, Hylo, Zig's allocator discipline.
+  <p class="x60 fragment">
+    C++ already changed Rust. Python is <i class="rust-orange">still waiting</i>
   </p>
 </section>
 
 <section data-transition="fade-in fade-out">
-  <div id="left70">
-    <h3>Rust is filling gaps <i class="rust-orange">neither</i><br>of them can close</h3>
-    <hr class="rust-line"/>
-    <ul class="x70 tight">
-      <li class="fragment">C++ cannot get memory safety without breaking
-          compatibility - and compatibility is the reason people still use it</li>
-      <li class="fragment">Python cannot get performance without leaving Python
-          - the C API is a 30-year-old contract nobody can afford to break</li>
-      <li class="fragment">Rust is the only place where both of those problems
-          have the <i>same</i> answer</li>
-    </ul>
+  <h3>Rust's influence, <i class="rust-orange">visible</i>: <code>rustc</code> vs. <code>ruff</code></h3>
+  <div class="columns v-start" style="margin-top: 0.5em;">
+    <div>
+      <pre style="font-size: 46%;"><code class="plaintext" data-trim data-noescape>
+warning: unused import: `std::fs`
+ --&gt; src/main.rs:1:5
+  |
+1 | use std::fs;
+  |     ^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]`
+          on by default
+      </code></pre>
+      <p class="x60 rust-orange" style="margin-top:0;">rustc</p>
+    </div>
+    <div>
+      <pre style="font-size: 46%;"><code class="plaintext" data-trim data-noescape>
+F401 [*] `os` imported but unused
+ --&gt; main.py:1:8
+  |
+1 | import os
+  |        ^^
+  |
+help: Remove unused import: `os`
+      </code></pre>
+      <p class="x60 python-yellow" style="margin-top:0;">ruff</p>
+    </div>
   </div>
+</section>
+
+<section data-transition="fade-in fade-out">
+  <p>(live example)</p>
+  <p><span class="fragment">OK... now back to reality</span></p>
+</section>
+
+<section data-transition="fade-in fade-out">
+    <div>
+      <h3>Rust is filling gaps <i class="rust-orange">neither neighbour</i><br>can close</h3>
+      <hr class="rust-line"/>
+      <ul class="x70 tight">
+        <li class="fragment"><b>C++:</b> safety vs. compatibility (its reason to exist)</li>
+        <li class="fragment"><b>Python:</b> speed vs. a 30-year-old C API</li>
+        <li class="fragment">Rust is where both meet: an
+            <i class="rust-orange">opportunity</i>, not a victory</li>
+      </ul>
+    </div>
 </section>
 
 <!-- ==========================================================================
-     6. WHAT RUST DEVELOPERS SHOULD BE WATCHING  [4 min]
+     5. WHAT TO WATCH  [3 min]
      ========================================================================== -->
 
-<section data-transition="fade-in fade-out" class="slide-rust-orange" data-no-header>
-  <h1><span class="kicker">Part five</span>What to watch</h1>
+<section data-transition="fade-in fade-out" data-no-header  data-background-image="img/background_watch.png" data-background-opacity="0.3">
+  <h1><span class="kicker">Part four</span>What to watch</h1>
 </section>
 
 <section data-transition="fade-in fade-out">
-  <h3>Five things, on your radar</h3>
-  <ol class="x70 tight" style="text-align:left; width: 85%; margin: 0.5em auto;">
-    <li class="fragment"><b class="cpp-blue">Does C++ ship credible Profiles?</b>
-        If yes, the political argument for Rust weakens overnight, and interop
-        matters more than ever. If no, the regulatory pressure lands on Rust's side.</li>
-    <li class="fragment"><b>Regulation with dates on it.</b> The EU CRA's 2027
-        obligations mean SBOMs, vulnerability reporting and provenance become
-        <i>crates.io</i> problems, not somebody else's.</li>
-    <li class="fragment"><b class="python-yellow">Free-threaded Python.</b>
-        No GIL means PyO3 has to answer real concurrency questions - and Rust
-        is the best-positioned language in that room.</li>
-    <li class="fragment"><b>Build system convergence.</b> Cargo is wonderful
-        and it is not what Bazel, CMake, Yocto or Debian want. Somebody has to blink.</li>
-    <li class="fragment"><b>Supply chain.</b> cargo-vet, cargo-crev, RustSec,
-        namespaces. Being the trusted ecosystem is now a competitive feature.</li>
-  </ol>
+  <h3>To watch (1/3): <i class="rust-orange">C++ and Python</i></h3>
+  <hr class="rust-line"/>
+  <ul class="x70 tight">
+    <li class="fragment"><b class="cpp-blue">Will C++ Profiles deliver?</b>
+      <ul>
+        <li>If they do, C++ stays and interop matters even more.</li>
+        <li>If not, more C++ teams turn to Rust.</li>
+      </ul>
+    </li>
+    <li class="fragment"><b class="python-yellow">Free-threaded Python and CPython:</b>
+      <ul>
+        <li>PyO3 needs concurrency answers, and Rust has them.</li>
+        <li>Rust may land in CPython 3.16 (<code>zlib-rs</code>, proposed)</li>
+      </ul>
+    </li>
+  </ul>
 </section>
 
 <section data-transition="fade-in fade-out">
-  <div id="left70">
-    <h3>And two you can't schedule</h3>
-    <hr class="rust-line"/>
-    <ul class="x70 tight">
-      <li class="fragment"><b>Who pays for this?</b> Foundation funding,
-          maintainer burnout, and a dependency graph that a lot of critical
-          infrastructure now sits on top of.</li>
-      <li class="fragment"><b>The newcomer wave itself.</b> Every C++ team told
-          to write a memory safe roadmap, and every Python library that needs a
-          fast core, sends people here. Ready or not.</li>
-    </ul>
+  <h3>To watch (2/3): <i class="rust-orange">same problems, shared answers</i></h3>
+  <hr class="rust-line"/>
+  <div class="columns c3 v-start x70" style="margin-top: 0.6em;">
+    <div class="fragment">
+      <p><i class="qt-lemon" style="font-size: 1.5em;">Regulation</i><br>
+        The EU CRA puts companies shipping Python, C++ and Rust on the hook,
+        and they will ask upstream for SBOMs and fixes.</p>
+    </div>
+    <div class="fragment">
+      <p><i class="qt-lemon" style="font-size: 1.5em;">Supply chain</i><br>
+        PyPI pioneered Trusted Publishing (2023); crates.io adopted it (2025).</p>
+    </div>
+    <div class="fragment">
+      <p><i class="qt-lemon" style="font-size: 1.5em;">Build systems</i><br>
+        Rust usually joins an existing CMake, Bazel or Python build. The better
+        Cargo fits in, the easier Rust gets adopted.</p>
+    </div>
   </div>
+  <p class="ref">
+    Open source foundations' joint CRA effort (Apr 2024). crates.io development
+    update (Jul 2025). RustConf 2026: "TARmageddon: Reflections on a Multi-Crate
+    CVE" (Alex Zenla)
+  </p>
 </section>
 
-<section data-transition="fade-in fade-out" data-background-image="img/background_stars.svg">
+<section data-transition="fade-in fade-out">
+  <h3>To watch (3/3): <i class="rust-orange">at home</i></h3>
+  <hr class="rust-line"/>
+  <ul class="x70 tight">
+    <li class="fragment"><b>Funding:</b> half of PyPI now rests on crates kept by a
+        few maintainers. Who pays them?</li>
+    <li class="fragment"><b>More newcomers:</b> C++ teams with safety roadmaps,
+        Python developers writing extensions. Are we ready? 🤔</li>
+  </ul>
+  <p class="ref">
+    RustConf 2026: "Project Goals : Funding :: Chocolate : Peanut Butter"
+    (Nicholas Matsakis)
+  </p>
+</section>
+
+<section data-transition="fade-in fade-out">
   <h2>The Rust community is<br>becoming <i class="rust-orange">heterogeneous</i></h2>
-  <p class="x70 fragment" style="opacity:0.85;">
-    Kernel people. Automotive people. Web people.<br>
-    Data scientists who have never seen a segfault.
-  </p>
   <p class="x70 fragment">
-    That is not dilution. That's what <i>winning</i> looks like -<br>
-    and it is much harder to run than a small community.
+    <i class="qt-lemon">But a big community is harder to care for</i>
   </p>
 </section>
 
 <!-- ==========================================================================
-     7. CLOSING REMARKS  [1 min]
+     6. CLOSING  [3 min]
      ========================================================================== -->
 
 <section data-transition="fade-in fade-out">
-  <div id="left70">
-    <h3>Last words</h3>
-    <hr class="rust-line"/>
-    <ul class="x70 tight">
-      <li>Rust doesn't evolve in isolation</li>
-      <li>Memory safety is now a <b>political and institutional</b> concern,
-          not a language design debate</li>
-      <li><b>Python is already running on Rust</b> - most of its users
-          don't know it</li>
-      <li><b>The world runs on C++</b> - and Rust has the solutions to improve
-          it.
-      <li>The influence is <b>bidirectional</b></li>
-      <li>Rust fills gaps <b>neither C++ nor Python</b> can fully close</li>
-      <li>Staying heterogeneous is the hard part, and the whole point</li>
-    </ul>
-  </div>
+  <h3>So, after this conference</h3>
+  <hr class="rust-line"/>
+  <ul class="action-list x60">
+    <li><span class="emoji">🐍</span> PyO3 free-threading, Rust for CPython reviews</li>
+    <li class="fragment"><span class="emoji">🔗</span> Use, report, document:
+        <code>cxx</code>, <code>zngur</code>, <code>crubit</code>, and <code>diplomat</code></li>
+    <li class="fragment"><span class="emoji">📝</span> Read the Carbon and Profiles designs, share what Rust learned</li>
+    <li class="fragment"><span class="emoji">🎤</span> Talk at EuroPython, PyCons, Meeting C++, CppCon</li>
+    <li class="fragment"><span class="emoji">📚</span> Write for Pythonistas and C++ devs. Mentor, don't gatekeep</li>
+    <li class="fragment"><span class="emoji">🤝</span> Joint meetups: Python + Rust, C++ + Rust</li>
+  </ul>
 </section>
 
-<section data-transition="fade-in fade-out" data-background-image="img/background_stars.svg">
-  <h2>Look at your <i class="rust-orange">neighbours</i>.</h2>
+<section data-transition="fade-in fade-out">
+  <h2>Your neighbours are more <i class="rust-orange">curious</i><br>than you might think</h2>
   <p class="x70 fragment" style="opacity:0.85;">
-    They are already looking at you.
+    Most C++ and Python developers are open, and many <i class="qt-lemon">already trust Rust 💜</i>
+  </p>
+  <p class="fragment">
+    <i class="qt-lemon">Reach out 👋:</i> most will be glad you did 🦀
   </p>
 </section>
 
-<section data-transition="fade-in fade-out" data-background-image="img/background_backcover.svg">
-  <div id="left">
-    <h4>Rust's Influence on C++ and Python</h4>
-    <p class="x40" style="margin:0; opacity:0.8;">Shaping the future of three communities</p>
-    <p class="x80">
-    Dr. <i class="rust-orange">Cristián</i> Maureira-Fredes<br>
-    <hr class="rust-line"/>
-    <span>@cmaureir</span><br/>
-    <img class="clean-img" src="img/bluesky.png">
-    <img class="clean-img" src="img/mastodon.png">
-    <img class="clean-img" src="img/github_white.png">
-    <img class="clean-img" src="img/linkedin.png">
-    <hr class="rust-line"/>
-    <a href="https://github.com/cmaureir/eurorust2026">github.com/cmaureir/eurorust2026</a>
-    </p>
+<section data-transition="fade-in fade-out">
+  <p>...and with that, please</p>
+  <h2 class="r-fit-text">Look at your <i class="rust-orange">neighbours</i></h2>
+  <p class="r-fit-text fragment" style="opacity:0.85;">
+    <u>They are</u> already <i class="python-yellow">looking at you</i>
+  </p>
+</section>
+
+<section data-transition="fade-in fade-out" data-background-image="img/background_animals.svg">
+  <div class="columns c70-30">
+    <div>
+      <h4>Rust's Influence on C++ and Python:</h4>
+      <p class="x70" style="margin:0; opacity:0.8;">Shaping the future of three communities</p>
+      <p class="x80">
+      Dr. <i class="qt-lemon">Cristián</i> Maureira-Fredes<br>
+      <i class="qt-lemon">maureira.dev</i>
+      <hr class="rust-line"  style="margin-left: 0px;"/>
+      <span>@cmaureir</span><br/>
+      <img class="clean-img" src="img/bluesky.png">
+      <img class="clean-img" src="img/mastodon.png">
+      <img class="clean-img" src="img/github_white.png">
+      <img class="clean-img" src="img/linkedin.png">
+      <hr class="rust-line"  style="margin-left: 0px" />
+      <a href="https://cmaureir.github.io/eurorust2026">cmaureir.github.io/eurorust2026</a>
+      </p>
+    </div>
   </div>
-  <aside class="notes">
-    TODO: point the link at the published GitHub Pages URL once the repo is
-    public, and confirm the repo name matches.
-  </aside>
 </section>
 
     </div>
@@ -703,9 +1047,8 @@ maturin develop   # builds it, installs it into the venv, done
   <div id="hidden" style="display: none;">
     <div id="header">
       <div id="header-left" style="margin-top: 20px; margin-left: 20px; font-size: 12pt;">
-        <!-- TODO: drop in the EuroRust logo here and swap this text mark out -->
         <p style="font-size: 18pt; margin: 0;">
-          <img style="max-width: 16%;" src="img/eurorust.webp"/>
+          <img style="max-width: 10%;" src="img/eurorust.webp"/>
         </p>
       </div>
       <div id="header-right"></div>

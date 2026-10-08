@@ -17,12 +17,11 @@ python -m http.server 8000   # then open http://localhost:8000
 
 ## Talk structure
 
-| Section                       | Budget |
-| ----------------------------- | ------ |
-| Introduction                  | 3 min  |
-| The state of Rust today       | 3 min  |
-| The C++ safety crisis         | 7 min  |
-| Python's rusty revolution     | 7 min  |
-| The bidirectional relationship| 5 min  |
-| What to watch                 | 4 min  |
-| Closing remarks               | 1 min  |
+| Section                                  | Budget |
+| ---------------------------------------- | ------ |
+| Introduction (incl. where Rust stands)   | 4 min  |
+| C++: the safety search                   | 8 min  |
+| Python's rusty revolution                | 7 min  |
+| The bidirectional relationship           | 5 min  |
+| What to watch                            | 3 min  |
+| Closing: what to do after the conference | 3 min  |

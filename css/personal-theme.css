@@ -4,11 +4,14 @@
  * Overrides only. Load base-theme.css before this file; everything not set
  * here falls through to the base defaults.
  */
-@import url('https://fonts.googleapis.com/css?family=Lato');
+/* Request the bold and italic files too: with only 400 loaded, <b>, <i> and
+ * headings fall back to faux styles that barely show once reveal scales. */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 :root {
   --r-background-color: #10151b;
   --r-main-font: "Lato", sans-serif;
   --r-heading-font: "Lato", sans-serif;
-  --r-bold-font-weight: bolder;
+  /* Absolute, not `bolder`: on 300 body text `bolder` only reaches 400. */
+  --r-bold-font-weight: 700;
 }
